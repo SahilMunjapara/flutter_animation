@@ -1,3 +1,4 @@
+import 'package:animtions/consts/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/animation.dart';
 
@@ -39,7 +40,7 @@ class _State extends State<MyApp> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Name here'),
+        title: Text(ConstString.APP_TITLE),
       ),
       body: Container(
         height: animation.value,
